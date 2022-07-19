@@ -51,10 +51,10 @@ Team leads also need to create a public repository in their GitHub account and t
 </p>
 </details>
 
-## Step 3: Learn how to use Git with GitHub    
+## Step 3: Learn to use Git with GitHub    
 GitHub is just a website which hosts your project contents. Git is actually the software which you use to track code changes and Git can actually be used with any project repository i.e. BitBucket, AWS CodeCommit.   
 
-Many years ago, some clever people wrote a software package called `Git` and made it available to the entire world wide web. Installing `Git` allows you to perform the commands to clone code, modify it and the 'save' a new version in your code repository. We can use Git through the command line interface (CLI) or through the graphical user interface (GUI). For simplicity, we will demonstrate Git using the GUI but people are also welcome to use the CLI. 
+Installing `Git` allows you to perform commands to clone code, modify it and then publish a new version in your code repository. We can use Git through the command line interface (CLI) or through the graphical user interface (GUI). For simplicity, we will demonstrate Git using the GUI but people are also welcome to use the CLI.   
 
 <details><summary>Git installation instructions</summary>  
 <p>  
