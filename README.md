@@ -1,9 +1,9 @@
 # Getting Started    
 
-Welcome to the Collaboration Week mini-hackathon. This `README` document contains instructions for how to get started.   
+Welcome to the Collaboration Week mini-hackathon. This `README` document contains instructions for how to get started. Remember to work **outside** your work environment with your personal GitHub account at all times during this challenge.  
 
 ## Step 1: Create a personal GitHub account (everyone)  
-To access the team GitHub repository, you will need to create a new GitHub account or use an existing public GitHub account. The account name can be `firstnamelastname` as long as you do not reference any internal work or work organisation information on your GitHub account. You are also welcome to use code names like `lazywombat` for your Github account.    
+To access the team GitHub repository, you will need to create a new GitHub account or use an existing public GitHub account. The account name can be `firstnamelastname` as long as you do not reference any internal work or work organisation information on your GitHub account. You are also welcome to use code names like `lazywombat` for your Github account.     
 
 <details><summary>Account creation steps</summary>  
 <p>   
@@ -88,12 +88,23 @@ The best way to imagine how to use a code repository like GitHub is to think abo
 
 The remote repository hosts the stable and most up-to-date version of the team project i.e. all the code, documentation and non-sensitive outputs. At any one time, multiple individuals might be working on different components of a project. This means that individuals might have slightly different versions of code or documentation sitting in their local repositories.  
 
-The goal is to communicate clearly on what you are working on, and save (i.e. commit) and publish (i.e. push) your local modifications back to your remote project repository as soon as you have finished a task.   
+The goal is to communicate clearly on what you are working on, and save (i.e. commit) and publish (i.e. push) your local modifications back to your remote project repository as soon as you have finished a task.  
+
+<img src="./figures/git_usage_summary.png" width="500px"><br>   
 
 <details><summary>Code version control steps</summary>  
 <p>  
-1. Your team would have already created a new repository for the hackathon challenge.  
 
+1. Navigate to the GitHub repository that your team lead has created. Click on the green `Code` button and copy the HTTPS link for your repository. We would like to create a clone of this remote repository in our local environment via the copied HTTPS link.  
+
+    <img src="./figures/repo_clone_link.png" width="500px"><br>   
+
+2. Open the Git GUI and click `Clone existing repository`. This takes you to a window where you can enter your copied HTTPS link as the source location, and a new local working directory as your target location `C:/Users/username/Desktop/git_project/repository_name`. Click `Clone`.    
+
+    <img src="./figures/git_gui_clone.png" width="500px"><br>   
+    <img src="./figures/git_gui_clone_2.png" width="500px"><br>  
+
+3. Congratulations! You now have a local version of your project repository (which contains a link to your remote repository).  
 </p>
 </details>  
 
