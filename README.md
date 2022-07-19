@@ -52,7 +52,7 @@ Team leads also need to create a public repository in their GitHub account and t
 </details>
 
 ## Step 3: Install Git for use with GitHub (everyone)
-GitHub is just a website which hosts your project contents. Git is actually the software which you use to track code changes and Git can actually be used with any project repository i.e. BitBucket, AWS CodeCommit.   
+GitHub is just a website which hosts your projects inside individual repositories. Git is actually the software which you use to track code changes and Git can actually be used with any project repository i.e. BitBucket, AWS CodeCommit.   
 
 Installing `Git` allows you to perform commands to clone code, modify it and then publish a new version in your code repository. We can use Git through the command line interface (CLI) or through the graphical user interface (GUI). For simplicity, we will demonstrate Git using the GUI but people are also welcome to use the CLI.   
 
@@ -83,9 +83,21 @@ Installing `Git` allows you to perform commands to clone code, modify it and the
 </p>
 </details>
 
-## Step 4: Using Git to publish code to GitHub (everyone)   
+## Step 4: Using Git to publish code to GitHub (everyone)  
+The best way to imagine how to use a code repository like GitHub is to think about how a team ideally works. First, you would need a central project repository that is stable and that everyone can access. This is known as the **remote repository**. Individuals work in a local environment (which may contain older or newer code compared to the remote repository) and this is known as the **local repository**.   
 
+The remote repository hosts the stable and most up-to-date version of the team project i.e. all the code, documentation and non-sensitive outputs. At any one time, multiple individuals might be working on different components of a project. This means that individuals might have slightly different versions of code or documentation sitting in their local repositories.  
 
+The goal is to communicate clearly on what you are working on, and save (i.e. commit) and publish (i.e. push) your local modifications back to your remote project repository as soon as you have finished a task.   
+
+<details><summary>Code version control steps</summary>  
+<p>  
+1. Your team would have already created a new repository for the hackathon challenge.  
+
+</p>
+</details>  
+
+<p>  
 
 # Other resources   
 + The [Git tutorials](https://www.atlassian.com/git/tutorials/setting-up-a-repository) and [Git cheatsheet](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet) from Atlassian.   
