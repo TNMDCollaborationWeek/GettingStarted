@@ -56,7 +56,7 @@ GitHub is just a website which hosts your project contents. Git is actually the 
 
 Installing `Git` allows you to perform commands to clone code, modify it and then publish a new version in your code repository. We can use Git through the command line interface (CLI) or through the graphical user interface (GUI). For simplicity, we will demonstrate Git using the GUI but people are also welcome to use the CLI.   
 
-<details><summary>Git installation instructions</summary>  
+<details><summary>Git installation steps</summary>  
 <p>  
 
 1. Git is installed by default on Mac and Linux machines. Search through your applications to check whether you already have Git installed. To install Git on your non-work laptop or computer, navigate to [https://git-scm.com/downloads](https://git-scm.com/downloads) and select your operating system.    
@@ -78,13 +78,17 @@ Installing `Git` allows you to perform commands to clone code, modify it and the
 
 5. Congratulations! You have now installed Git in your non-work environment. You should now be able to access the Git GUI via the search bar.  
 
-    <img src="./figures/git_installation_process_3.png" width="500px"><br>  
+    <img src="./figures/git_gui_search.png" width="500px"><br>  
 
 </p>
 </details>
 
-## Step 4: Using Git to publish code to GitHub (everyone)  
+## Step 4: Using Git to publish code to GitHub (everyone)   
 
 
 
-# Other resources  
+# Other resources   
++ The [Git tutorials](https://www.atlassian.com/git/tutorials/setting-up-a-repository) and [Git cheatsheet](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet) from Atlassian.   
++ The [R Programming Git Guide Book](https://happygitwithr.com/) written by Jenny Bryan and [contributors](https://happygitwithr.com/contrib.html).   
++ [Instructions for using the Git GUI](https://www.geeksforgeeks.org/working-on-git-for-gui/) from GeeksforGeeks.    
++ [Instructions for using Git Bash with GitHub](https://www.geeksforgeeks.org/ultimate-guide-git-github/?ref=lbp) from GeeksforGeeks.   
