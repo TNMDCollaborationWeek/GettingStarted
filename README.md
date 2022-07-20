@@ -90,7 +90,7 @@ The remote repository hosts the stable and most up-to-date version of the team p
 
 The goal is to communicate clearly on what you are working on, and save (i.e. commit) and publish (i.e. push) your local modifications back to your remote project repository as soon as you have finished a task.  
 
-<img src="./figures/git_usage_summary.png" width="800px"><br>   
+![](./figures/git_usage_summary.gif)   
 
 <details><summary>Code version control steps</summary>  
 <p>  
