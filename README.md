@@ -1,6 +1,9 @@
 # Getting Started    
 
-Welcome to the Collaboration Week mini-hackathon. This `README` document contains instructions for how to get started. Remember to work **outside** your work environment with your personal GitHub account at all times during this challenge.  
+Welcome to the Collaboration Week mini-hackathon. This `README` document contains instructions for how to get started. Remember to work **outside** your work environment with your personal GitHub account at all times during this challenge. 
+
+# Recommended YouTube videos  
+We recommend watching [Learn Git in 15 minutes](https://www.youtube.com/watch?v=USjZcfj8yxE) or the more in-depth [Git & GitHub Crash course](https://www.youtube.com/watch?v=RGOj5yH7evk) before starting the hackathon.   
 
 ## Step 1: Create a personal GitHub account (everyone)  
 To access the team GitHub repository, you will need to create a new GitHub account or use an existing public GitHub account. The account name can be `firstnamelastname` as long as you do not reference any internal work or work organisation information on your GitHub account. You are also welcome to use code names like `lazywombat` for your Github account.     
@@ -115,3 +118,4 @@ The goal is to communicate clearly on what you are working on, and save (i.e. co
 + The [R Programming Git Guide Book](https://happygitwithr.com/) written by Jenny Bryan and [contributors](https://happygitwithr.com/contrib.html).   
 + [Instructions for using the Git GUI](https://www.geeksforgeeks.org/working-on-git-for-gui/) from GeeksforGeeks.    
 + [Instructions for using Git Bash with GitHub](https://www.geeksforgeeks.org/ultimate-guide-git-github/?ref=lbp) from GeeksforGeeks.   
++ A comprehensive list of [Git debugging instructions](https://dangitgit.com/en) from DangItGit.  
