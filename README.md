@@ -1,5 +1,4 @@
 # Getting Started    
-
 Welcome to the Collaboration Week mini-hackathon. This `README` document contains instructions for how to get started. Remember to work **outside** your work environment with your personal GitHub account at all times during this challenge. 
 
 # Recommended YouTube videos  
@@ -57,7 +56,7 @@ Team leads also need to create a public repository in their GitHub account and t
 ## Step 3: Install Git for use with GitHub (everyone)
 GitHub is just a website which hosts your projects inside individual repositories. Git is actually the software which you use to track code changes and Git can actually be used with any project repository i.e. BitBucket, AWS CodeCommit.   
 
-Installing `Git` allows you to perform commands to clone code, modify it and then publish a new version in your code repository. We can use Git through the command line interface (CLI) or through the graphical user interface (GUI). For simplicity, we will demonstrate Git using the GUI but people are also welcome to use the CLI.   
+Installing `Git` allows you to perform commands to clone code, modify it and then publish a new version in your code repository. We can use Git through the command line interface (CLI) or through the graphical user interface (GUI). For simplicity, we will demonstrate Git using the GUI but people are also welcome to use the CLI.     
 
 <details><summary>Git installation steps</summary>  
 <p>  
@@ -113,7 +112,7 @@ The goal is to communicate clearly on what you are working on, and save (i.e. co
 ### Create a separate local repository branch  
 It is always a good habit to work on a branch which is separate to your main branch. This prevents you from accidentally overwriting your team's remote project repository without someone else to peer review your changes. 
 
-    <img src="./figures/remote_repository_branches.png" width="500px"><br>    
+<img src="./figures/remote_repository_branches.png" width="500px"><br>    
 
 1. In your newly cloned local repository, navigate to `Branch` -> `Create...` to create a new branch. Name your branch something like `username_dev`.   
 
@@ -122,9 +121,22 @@ It is always a good habit to work on a branch which is separate to your main bra
 2. Click `Create` and you will automatically switch to working inside your new `username_dev` branch.   
 
 ### Add new code to your remote repository  
-1. 
+1. Navigate to your local working directory i.e. `C:/Users/user/git_repo/project` and start working on your project. Save all changes to your code or documents.  
+2. To register your changes locally, first click `Rescan` to scan for local file updates. The bash equivalent of this is to type `git status`. Any new changes made in your local working directory will now appear under the `Unstaged Changes` section.   
 
+    <img src="./figures/git_status.png" width="500px"><br>  
 
+3. Add your new changes by clicking `Stage Changed`. The bash equivalent of this is to type `git add`.  
+
+    <img src="./figures/git_add.png" width="500px"><br>  
+
+4. Register a new code version change by writing a new commit message in the GiT GUI textbox and then clicking `Commit`. The bash equivalent of this is to type `git commit`. This registers a new version of your code in your local repository timeline and enables you to push your commited changes back to your remote repository.   
+
+    <img src="./figures/git_commit.png" width="500px"><br>  
+
+5. To push your local changes back to the remote repository, click `Push`. **Remember to push your `username_dev` branch to your remote repository**. The Git GUI will push to a newly created remote GitHub branch named `username_dev`. This allows you to create a remote copy of your own changes, which a team member can review before integration back into your team's remote repository `main` branch. The bash equivalent of this is to type `git push HEAD:username_dev`.    
+
+    <img src="./figures/git_commit.png" width="500px"><br>  
 
 </p>
 </details>  
