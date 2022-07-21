@@ -3,7 +3,7 @@
 Welcome to the Collaboration Week mini-hackathon. This `README` document contains instructions for how to get started. Remember to work **outside** your work environment with your personal GitHub account at all times during this challenge. 
 
 # Recommended YouTube videos  
-We recommend watching [Learn Git in 15 minutes](https://www.youtube.com/watch?v=USjZcfj8yxE) or the more in-depth [Git & GitHub Crash course](https://www.youtube.com/watch?v=RGOj5yH7evk) before starting the hackathon.   
+We recommend watching [Learn Git in 15 minutes](https://www.youtube.com/watch?v=USjZcfj8yxE) or the more in-depth [Git & GitHub Crash course](https://www.youtube.com/watch?v=RGOj5yH7evk) before starting the mini-hackathon.   
 
 ## Step 1: Create a personal GitHub account (everyone)  
 To access the team GitHub repository, you will need to create a new GitHub account or use an existing public GitHub account. The account name can be `firstnamelastname` as long as you do not reference any internal work or work organisation information on your GitHub account. You are also welcome to use code names like `lazywombat` for your Github account.     
@@ -98,6 +98,7 @@ The goal is to communicate clearly on what you are working on, and save (i.e. co
 <details><summary>Code version control steps</summary>  
 <p>  
 
+### Clone your remote repository  
 1. Navigate to the GitHub repository that your team lead has created. Click on the green `Code` button and copy the HTTPS link for your repository. We would like to create a clone of this remote repository in our local environment via the copied HTTPS link.  
 
     <img src="./figures/repo_clone_link.png" width="500px"><br>   
@@ -107,7 +108,24 @@ The goal is to communicate clearly on what you are working on, and save (i.e. co
     <img src="./figures/git_gui_clone.png" width="500px"><br>   
     <img src="./figures/git_gui_clone_2.png" width="500px"><br>  
 
-3. Congratulations! You now have a local version of your project repository (which contains a link to your remote repository).  
+3. Congratulations! You now have a local version of your project repository. Your local repository will store the link to your remote GitHub repository automatically.  
+
+### Create a separate local repository branch  
+It is always a good habit to work on a branch which is separate to your main branch. This prevents you from accidentally overwriting your team's remote project repository without someone else to peer review your changes. 
+
+    <img src="./figures/remote_repository_branches.png" width="500px"><br>    
+
+1. In your newly cloned local repository, navigate to `Branch` -> `Create...` to create a new branch. Name your branch something like `username_dev`.   
+
+    <img src="./figures/git_branch.png" width="500px"><br>    
+
+2. Click `Create` and you will automatically switch to working inside your new `username_dev` branch.   
+
+### Add new code to your remote repository  
+1. 
+
+
+
 </p>
 </details>  
 
