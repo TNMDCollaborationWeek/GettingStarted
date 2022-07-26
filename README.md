@@ -92,7 +92,13 @@ The remote repository hosts the stable and most up-to-date version of the team p
 
 The goal is to communicate clearly on what you are working on, and save (i.e. commit) and publish (i.e. push) your local modifications back to your remote project repository as soon as you have finished a task.  
 
-![](./figures/git_usage_summary.gif)   
+![](./figures/git_usage_summary.gif)    
+
+> **Warning**  
+> You will need to hotspot from your mobile phone and access personal wifi from your work device to push and pull to your remote GitHub repository.   
+
+> **Warning**  
+> The first time you commit a code version using the Git GUI or Git Bash, you will be asked to authenticate your local GitHub account. To do this, open Git Bash and input `git config --global user.email "fake email address"` and `git config --global user.name "username"`. When you make your first push back to your remote GitHub repository, you need to select the browser-based option of logging into GitHub a second time to confirm your user identity.    
 
 <details><summary>:rotating_light:Code version control steps</summary>  
 <p>  
@@ -130,7 +136,7 @@ It is always a good habit to work on a branch which is separate to your main bra
 
     <img src="./figures/git_add.png" width="500px"><br>  
 
-4. Register a new code version change by writing a new commit message in the Git GUI textbox and then clicking `Commit`. The bash equivalent of this is to type `git commit`. This registers a safe version of your code changes locally, which then enables you to push your committed changes to your remote repository.   
+4. Register new code changes by writing a new commit message in the Git GUI textbox and then clicking `Commit`. The bash equivalent of this is to type `git commit`. This registers a safe version of your code changes locally, which then enables you to push your committed changes to your remote repository. The first time you do this, you may see an error message prompting you to fill our your global username and user email. Do this by opening Git Bash and inputting `git config --global user.email "fake email address"` and `git config --global user.name "username"`.    
 
     <img src="./figures/git_commit.png" width="500px"><br>  
 
