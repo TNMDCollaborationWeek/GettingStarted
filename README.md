@@ -163,7 +163,7 @@ Congratulations! Your local code changes have now been committed to your remote 
 :tada:Congratulations! You have successfully added changes to your team's remote repository!    
 
 ### Update your local repository with your team member's new changes   
-1. Imagine that your team member has made a new change to the remote repository `main` branch whilst you were working locally on your own changes. This happens all the time. To integrate your team member's new remote changes, click `Remote` -> `Fetch from` -> `origin` to fetch the latest copy of the team's remote repository and then click `Merge` -> `Local Merge...` to merge these changes to your local repository. The bash equivalent of these two steps is to type `git push`.  
+1. Imagine that your team member has made a new change to the remote repository `main` branch whilst you were working locally on your own changes. This happens all the time. To integrate your team member's new remote changes, click `Remote` -> `Fetch from` -> `origin` to fetch the latest copy of the team's remote repository and then click `Merge` -> `Local Merge...` to merge these changes to your local repository. The bash equivalent of these two steps is to type `git pull`.  
 
     <img src="./figures/git_push.png" width="500px"><br>   
 
